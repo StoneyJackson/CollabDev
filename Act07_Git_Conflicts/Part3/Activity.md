@@ -1,4 +1,4 @@
-# VC-Act07-p3 - Lexical Conflicts
+# Activity 7, Part 3: Lexical Conflicts
 
 ## Model 1: Orientation
 
@@ -156,4 +156,3 @@ public class A {
 
 
     ```
-

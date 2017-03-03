@@ -1,4 +1,4 @@
-# Version Control - Resources
+# Resources for Collaborative Development
 
 - Git: https://git-scm.com/
   - Reference: https://git-scm.com/docs
@@ -9,5 +9,3 @@
   - `git help`
     - `git help --guides`
     - `git help --all`
-
-*Last reviewed: Mon Feb  6 09:26:00 EST 2017*

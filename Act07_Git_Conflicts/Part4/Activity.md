@@ -1,4 +1,4 @@
-# VC-Act07-p4 - Get Conflicted!
+# Activity 7, Part 4: Resolving Lexical Conflicts
 
 1. Project.zip contains a git repository. Unzip it.
 

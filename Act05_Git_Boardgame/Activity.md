@@ -1,4 +1,4 @@
-# Git: The Board Game
+# Activity 5: Git, The Board Game
 
 The goal is to create a board game for teaching git.
 

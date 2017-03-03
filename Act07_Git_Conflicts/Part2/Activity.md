@@ -1,4 +1,4 @@
-# VC-Act07-p2 - Logical Conflicts
+# Activity 7, Part 2: Logical Conflicts
 
 1. Project.zip contains a git repository. Unzip it.
 

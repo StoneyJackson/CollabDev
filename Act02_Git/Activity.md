@@ -1,5 +1,4 @@
-Git Intro Activity
-==================
+# Activity 2: Git
 
 A. Form teams
 -------------

@@ -1,4 +1,4 @@
-# .gitignore Activity
+# Activity 3: .gitignore
 
 ## Roles
 

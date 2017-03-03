@@ -1,4 +1,4 @@
-# Collaboration: Activity 02 - Copyright and Licensing
+# Activity 9: Copyright and Licensing
 
 ## Objectives
 

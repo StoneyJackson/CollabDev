@@ -1,4 +1,4 @@
-# Version Control, Activity 05, Git Branching
+# Activity 6: Branching
 
 ## Objective
 

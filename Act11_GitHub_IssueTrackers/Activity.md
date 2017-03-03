@@ -1,4 +1,4 @@
-# Collaboration - Activity 04 - Issue Tracking
+# Activity 11: Issue Trackers
 
 ## Part 1
 

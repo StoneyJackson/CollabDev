@@ -1,4 +1,4 @@
-# Commit Messages Activity
+# Activity 4: Commit Messages
 
 ## Roles
 

@@ -1,4 +1,4 @@
-# VC-Act07-p1: Exploring and Merging
+# Activity 7, Part 1: Merge
 
 1. Project.zip contains a git repository. Unzip it.
 

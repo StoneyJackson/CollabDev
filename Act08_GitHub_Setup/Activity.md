@@ -1,4 +1,4 @@
-# Collaboration: Activity 01: GitHub Setup
+# Activity 8: GitHub
 
 ## Part 1
 

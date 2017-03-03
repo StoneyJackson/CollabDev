@@ -1,4 +1,4 @@
-# GitHub Workflow Activity
+# Activity 12: Workflow
 
 
 ## Form teams
