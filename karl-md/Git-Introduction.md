@@ -7,27 +7,30 @@ Git - Introduction
 This activity is to reinforce and review Git basics. You have been using
 GitLab as a repository manager for turning in your code in previous
 classes. This activity offers to review the steps that have been
-followed to do the same and refresh student’s knowledge.
+followed to do the same and refresh student's knowledge.
 
 Sharing Your Work Through GitLab
 
 When you use GitLab as a way to share your work with your instructor and
 your partner(s), you need to interact with the **gitlab.com** server.
 
-## Content Learning Objectives
+Content Learning Objectives
+---------------------------
 
 *After completing this activity, students should be able to:*
 
-  - Describe the process of submitting assignments through GitLab.
+-   Describe the process of submitting assignments through GitLab.
 
-##  Process Skill Goals
+ Process Skill Goals
+-------------------
 
 *During the activity, students should make progress toward:*
 
-  - Leveraging prior knowledge and experience of other students.
+-   Leveraging prior knowledge and experience of other students.
     (Teamwork)
 
-## Team Roles
+Team Roles
+----------
 
 *Decide what role each of you will play for today. Choose a role that
 you have not played before, or recently. The goal should be to have all
@@ -36,29 +39,35 @@ comfortable with all the roles. If you have only three people, one
 should have two roles. If you have five people, two may share the same
 role. Record role assignments here.*
 
-|           |  |
-| --------- |  |
-| Manager   |  |
-| Presenter |  |
-| Recorder  |  |
-| Reflector |  |
+  ----------- --
+  Manager     
+  Presenter   
+  Recorder    
+  Reflector   
+  ----------- --
 
-# Model 1: Before Starting Lab1
+Model 1: Before Starting Lab1
+=============================
 
-![](media/image1.png)
+![](media/image1.png){width="5.822916666666667in"
+height="6.020833333333333in"}
 
-## Questions (2 min)
+Questions (2 min)
+-----------------
 
-1.  Where does your GitLab account and your instructor’s GitLab account
+1.  Where does your GitLab account and your instructor's GitLab account
     exist?
 
 2.  At this point, where is Lab1?
 
-# Model 2
+Model 2
+=======
 
-![](media/image2.png)
+![](media/image2.png){width="5.822916666666667in"
+height="5.989583333333333in"}
 
-## Questions (2 min)
+Questions (2 min)
+-----------------
 
 1.  What happens in Model 2?
 
@@ -66,11 +75,14 @@ role. Record role assignments here.*
 
 3.  Why would you need/want to do this?
 
-# Model 3
+Model 3
+=======
 
-![](media/image3.png)
+![](media/image3.png){width="5.822916666666667in"
+height="6.020833333333333in"}
 
-## Questions (3 min)
+Questions (3 min)
+-----------------
 
 1.  What happens in Model 3?
 
@@ -80,11 +92,14 @@ role. Record role assignments here.*
 
 4.  Why would you need/want to do this?
 
-# Model 4
+Model 4
+=======
 
-![](media/image4.png)
+![](media/image4.png){width="5.822916666666667in"
+height="6.020833333333333in"}
 
-## Questions (2 min)
+Questions (2 min)
+-----------------
 
 Between Model 3 and Model 4, you make changes to Lab1 on your computer.
 
@@ -94,11 +109,14 @@ Between Model 3 and Model 4, you make changes to Lab1 on your computer.
 
 3.  Why would you need/want to do this?
 
-# Model 5
+Model 5
+=======
 
-![](media/image5.png)
+![](media/image5.png){width="5.822916666666667in"
+height="6.020833333333333in"}
 
-## Questions (3 min)
+Questions (3 min)
+-----------------
 
 1.  What happened between Model 4 and Model 5?
 
@@ -108,11 +126,14 @@ Between Model 3 and Model 4, you make changes to Lab1 on your computer.
 
 4.  Why would you need/want to do this?
 
-# Model 6
+Model 6
+=======
 
-![](media/image6.png)
+![](media/image6.png){width="5.822916666666667in"
+height="6.020833333333333in"}
 
-## Questions (4 min)
+Questions (4 min)
+-----------------
 
 1.  Between Model 5 and Model 6, your partner made changes to Lab1 on
     their computer, and got those changes into your account. What
@@ -132,6 +153,7 @@ Between Model 3 and Model 4, you make changes to Lab1 on your computer.
 7.  What operations would your instructor have to issue to get a copy of
     your Lab1 to grade it?
 
-![](media/image7.png)Copyright © 2019 Karl R. Wurst. This work is
-licensed under a Creative Commons Attribution-ShareAlike 4.0
+![](media/image7.png){width="0.9635422134733158in"
+height="0.3331867891513561in"}Copyright © 2019 Karl R. Wurst. This work
+is licensed under a Creative Commons Attribution-ShareAlike 4.0
 International License.
