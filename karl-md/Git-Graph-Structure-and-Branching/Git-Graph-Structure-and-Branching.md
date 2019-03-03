@@ -303,7 +303,7 @@ Date:   Fri Jan 18 16:19:36 2019 -0500
     Add Feature W.
 ```
 
-![](media/branching2.png)
+![](media/branching3-5.png)
 
 Questions (1 min)
 -----------------
@@ -358,8 +358,7 @@ current **HEAD**, we will start a branch. We will name the branch
   |  master
 ```
 
-![](media/image7.png){width="7.619792213473316in"
-height="3.7122058180227473in"}
+![](media/branching3-5.png)
 
 First DAG Second DAG Third DAG
 
@@ -383,64 +382,52 @@ repository during the commands.
 
 7.  What does **HEAD** represent?
 
+
 Model 7: Fixing the Bug: Committing the Fix
+===========================================
 
 Once the bug fix is committed by Dorothy Dev, Robert Release tags it a
 v1.1 for release.
 
-+-------+--------------------------------------------------------------------+
-| **1** | $ **git branch**                                                  |
-|       |                                                                    |
-| **2** | * issue-1                                                         |
-|       |                                                                    |
-| **3** | master                                                             |
-|       |                                                                    |
-| **4** | $ **git commit -m"Fix Issue #1"**                              |
-|       |                                                                    |
-| **5** | [issue-1 95cda96] Fix Issue #1                                  |
-|       |                                                                    |
-|       | 1 file changed, 1 insertion(+), 1 deletion(-)                      |
-|       |                                                                    |
-|       | $ **git log**                                                     |
-|       |                                                                    |
-|       | commit 95cda96507fcc41390a5e172e2e0ac1ce46ab38c (HEAD -> issue-1) |
-|       |                                                                    |
-|       | Author: Dorothy Dev <dot@awesomesoft.com>                       |
-|       |                                                                    |
-|       | Date: Sat Jan 19 9:45:02 2019 -0500                                |
-|       |                                                                    |
-|       | Fix Issue #1                                                      |
-|       |                                                                    |
-|       | commit 946e142c5638795aa2fd5b9555692ac82dea378c (tag: v1.0)        |
-|       |                                                                    |
-|       | Author: Dorothy Dev <dot@awesomesoft.com>                       |
-|       |                                                                    |
-|       | Date: Fri Jan 18 16:19:36 2019 -0500                               |
-|       |                                                                    |
-|       | Add Feature W.                                                     |
-|       |                                                                    |
-|       | $ **git tag -a v1.1 -m"Version 1.1 for release"**               |
-|       |                                                                    |
-|       | $ **git show v1.0**                                               |
-|       |                                                                    |
-|       | tag v1.1                                                           |
-|       |                                                                    |
-|       | Tagger: Robert Release <rob@awesomesoft.com>                    |
-|       |                                                                    |
-|       | Date: Sat Jan 19 10:29:36 2019 -0500                               |
-|       |                                                                    |
-|       | Version 1.1 for release                                            |
-|       |                                                                    |
-|       | commit 95cda96507fcc41390a5e172e2e0ac1ce46ab38c (HEAD -> issue-1) |
-|       |                                                                    |
-|       | Author: Dorothy Dev <dot@awesomesoft.com>                       |
-|       |                                                                    |
-|       | Date: Sat Jan 19 9:45:02 2019 -0500                                |
-|       |                                                                    |
-|       | Fix Issue #1                                                      |
-+-------+--------------------------------------------------------------------+
+```bash
+1 |  $ git branch
+  |  * issue-1
+  |  master
+  |
+2 |  $ git commit -m "Fix Issue #1"
+  |  [issue-1 95cda96] Fix Issue #1
+  |  1 file changed, 1 insertion(+), 1 deletion(-)
+  |
+3 |  $ git log
+  |  commit 95cda96507fcc41390a5e172e2e0ac1ce46ab38c (HEAD -> issue-1)
+  |  Author: Dorothy Dev <dot@awesomesoft.com>
+  |  Date:   Sat Jan 19 9:45:02 2019 -0500
+  |
+  |      Fix Issue #1
+  |
+  |  commit 946e142c5638795aa2fd5b9555692ac82dea378c (tag: v1.0)
+  |  Author: Dorothy Dev <dot@awesomesoft.com>
+  |  Date:   Fri Jan 18 16:19:36 2019 -0500
+  |
+  |      Add Feature W.
+  |
+4 |  $ git tag -a v1.1 -m "Version 1.1 for release"
+  |
+5 |  $ git show v1.0
+  |  tag v1.1
+  |  Tagger: Robert Release <rob@awesomesoft.com>
+  |  Date:   Sat Jan 19 10:29:36 2019 -0500
+  |
+  |      Version 1.1 for release
+  |
+  |  commit 95cda96507fcc41390a5e172e2e0ac1ce46ab38c (HEAD -> issue-1)
+  |  Author: Dorothy Dev <dot@awesomesoft.com>
+  |  Date:   Sat Jan 19 9:45:02 2019 -0500
+  |
+  |     Fix Issue #1
+```
 
-![](media/image3.png){width="3.4375in" height="3.75in"}
+![](media/branching6.png)
 
 Questions (2 min)
 -----------------
@@ -448,11 +435,13 @@ Questions (2 min)
 1.  Why do you think Dorothy Dev issued command #1?
 
 2.  Why does commit **95cda96** point to **94e14m** (rather than
-    > **63b66cf**)?
+    **63b66cf**)?
 
 3.  Why doesn't command #3 show commits **db96776** and **63b66cf**?
 
+
 Model 8: Merging the Bug Fix Into Version 2
+===========================================
 
 We are ready to get back to work on Version 2. The last thing to do is
 add Feature Z.
@@ -472,88 +461,53 @@ code.
 Let's assume that it's a better idea to merge in the bug fix right away,
 before adding Feature Z.
 
-+-----------------------------------+-----------------------------------+
-| **1**                             | $ **git branch**                 |
-|                                   |                                   |
-| **2**                             | * issue-1                        |
-|                                   |                                   |
-| **3**                             | master                            |
-|                                   |                                   |
-| **4**                             | $ **git checkout master**        |
-|                                   |                                   |
-| **5**                             | Switched to branch 'master'     |
-|                                   |                                   |
-|                                   | $ **git branch**                 |
-|                                   |                                   |
-|                                   | issue-1                           |
-|                                   |                                   |
-|                                   | * master                         |
-|                                   |                                   |
-|                                   | $ **git merge issue-1**          |
-|                                   |                                   |
-|                                   | Merge made by the 'recursive'   |
-|                                   | strategy.                         |
-|                                   |                                   |
-|                                   | a.java | 2 +-                    |
-|                                   |                                   |
-|                                   | 1 file changed, 1 insertion(+), 1 |
-|                                   | deletion(-)                       |
-|                                   |                                   |
-|                                   | $ **git log**                    |
-|                                   |                                   |
-|                                   | commit                            |
-|                                   | d05bd5c8760d8c5af94ccb690e9f0d695 |
-|                                   | 0bd5ff8                           |
-|                                   | (HEAD -> master)                 |
-|                                   |                                   |
-|                                   | Merge: 95cda96 63b66c             |
-|                                   |                                   |
-|                                   | Author: Colin Coder               |
-|                                   | <colin@awesomesoft.com>        |
-|                                   |                                   |
-|                                   | Date: Mon Jan 21 9:18:30 2019     |
-|                                   | -0500                             |
-|                                   |                                   |
-|                                   | Merge branch 'issue-1'          |
-|                                   |                                   |
-|                                   | commit                            |
-|                                   | 63b66cf74632ab3f2ebabb333e71d1393 |
-|                                   | 8d7f2d4                           |
-|                                   | (Author: Author: Colin Coder      |
-|                                   | <colin@awesomesoft.com>        |
-|                                   |                                   |
-|                                   | Date: Fri Jan 18 17:02:12 2019    |
-|                                   | -0500                             |
-|                                   |                                   |
-|                                   | Add Feature Y.                    |
-|                                   |                                   |
-|                                   | commit                            |
-|                                   | db967767f9ab675dba21e08c5d20627b3 |
-|                                   | 4cbe133                           |
-|                                   |                                   |
-|                                   | Author: Dorothy Dev               |
-|                                   | <dot@awesomesoft.com>          |
-|                                   |                                   |
-|                                   | Date: Fri Jan 18 16:25:44 2019    |
-|                                   | -0500                             |
-|                                   |                                   |
-|                                   | Add Feature X.                    |
-|                                   |                                   |
-|                                   | commit                            |
-|                                   | 946e142c5638795aa2fd5b9555692ac82 |
-|                                   | dea378c                           |
-|                                   | (tag: v1.0)                       |
-|                                   |                                   |
-|                                   | Author: Dorothy Dev               |
-|                                   | <dot@awesomesoft.com>          |
-|                                   |                                   |
-|                                   | Date: Fri Jan 18 16:19:36 2019    |
-|                                   | -0500                             |
-|                                   |                                   |
-|                                   | Add Feature W.                    |
-+-----------------------------------+-----------------------------------+
+```bash
+1 | $ git branch
+  | * issue-1
+  | master
+  |
+2 | $ git checkout master
+  | Switched to branch 'master'
+  |
+3 | $ git branch
+  | issue-1
+  | * master
+  |
+4 | $ git merge issue-1
+  | Merge made by the 'recursive' strategy.
+  |  a.java | 2 +-
+  |  1 file changed, 1 insertion(+), 1 deletion(-)
+  |
+5 | $ git log
+  | commit d05bd5c8760d8c5af94ccb690e9f0d6950bd5ff8 (HEAD -> master)
+  | Merge: 95cda96 63b66c
+  | Author: Colin Coder <colin@awesomesoft.com>
+  | Date:   Mon Jan 21 9:18:30 2019 -0500
+  |
+  |     Merge branch 'issue-1'
+  |
+  | commit 63b66cf74632ab3f2ebabb333e71d13938d7f2d4
+  | Author: Colin Coder <colin@awesomesoft.com>
+  | Date:   Fri Jan 18 17:02:12 2019 -0500
+  |
+  |     Add Feature Y.
+  |
+  | commit db967767f9ab675dba21e08c5d20627b34cbe133
+  | Author: Dorothy Dev <dot@awesomesoft.com>
+  | Date: Fri Jan 18 16:25:44 2019 -0500
+  |
+  |     Add Feature X.
+  |
+  | commit 946e142c5638795aa2fd5b9555692ac82dea378c (tag: v1.0)
+  | Author: Dorothy Dev
+  | <dot@awesomesoft.com>
+  | Date: Fri Jan 18 16:19:36 2019 -0500
+  |
+  |     Add Feature W.
+```
 
-![](media/image6.png){width="3.46875in" height="4.53125in"}
+![](media/branching7.png)
+
 
 Questions (8 min)
 -----------------
@@ -565,12 +519,12 @@ Questions (8 min)
 3.  Which command created commit **d05bd5c**?
 
 4.  Where are the two edges coming out of the node **d05bd5c**
-    > represented in the log?
+    represented in the log?
 
 5.  How would the resulting graph be different if Colin had not issued
-    > command #2, and had issued **git merge master** instead of **git
-    > merge issue-1**? (Assume that the newly created node would still
-    > be **d05bd5c.)**
+    command #2, and had issued **git merge master** instead of **git
+    merge issue-1**? (Assume that the newly created node would still
+    be **d05bd5c.)**
 
     a.  Where would the edges coming out of node **d05bd5c** point? Why?
 
@@ -582,10 +536,7 @@ Questions (8 min)
 
     e.  Which node would **v1.1** point to? Why?
 
-    f.  Why would this have been a bad choice? Explain in words how this
-        > would be different what what we wanted to do.
+    f.  Why would this have been a bad choice? Explain in words how this would be different what what we wanted to do.
 
-![](media/image9.png){width="0.9635422134733158in"
-height="0.3331867891513561in"}Copyright © 2019 Karl R. Wurst. This work
-is licensed under a Creative Commons Attribution-ShareAlike 4.0
-International License.
+Copyright © 2019 Karl R. Wurst. This work
+is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
