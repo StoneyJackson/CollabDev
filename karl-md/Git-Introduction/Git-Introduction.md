@@ -1,8 +1,4 @@
-*Version 2019-Spring-1.1, Revised 6 February 2019*
-
-Activity 3.1:
-
-Git - Introduction
+# Git - Introduction
 
 This activity is to reinforce and review Git basics. You have been using
 GitLab as a repository manager for turning in your code in previous
@@ -21,7 +17,7 @@ Content Learning Objectives
 
 -   Describe the process of submitting assignments through GitLab.
 
- Process Skill Goals
+Process Skill Goals
 -------------------
 
 *During the activity, students should make progress toward:*
@@ -39,18 +35,18 @@ comfortable with all the roles. If you have only three people, one
 should have two roles. If you have five people, two may share the same
 role. Record role assignments here.*
 
-  ----------- --
-  Manager     
-  Presenter   
-  Recorder    
-  Reflector   
-  ----------- --
+| Role      | Name |
+| --------- | ---- |
+| Manager   |      |
+| Presenter |      |
+| Recorder  |      |
+| Reflector |      |
+
 
 Model 1: Before Starting Lab1
 =============================
 
-![](media/image1.png){width="5.822916666666667in"
-height="6.020833333333333in"}
+![](media/Picture1.png)
 
 Questions (2 min)
 -----------------
@@ -60,11 +56,11 @@ Questions (2 min)
 
 2.  At this point, where is Lab1?
 
+
 Model 2
 =======
 
-![](media/image2.png){width="5.822916666666667in"
-height="5.989583333333333in"}
+![](media/Picture2.png)
 
 Questions (2 min)
 -----------------
@@ -75,11 +71,11 @@ Questions (2 min)
 
 3.  Why would you need/want to do this?
 
+
 Model 3
 =======
 
-![](media/image3.png){width="5.822916666666667in"
-height="6.020833333333333in"}
+![](media/Picture3.png)
 
 Questions (3 min)
 -----------------
@@ -95,8 +91,7 @@ Questions (3 min)
 Model 4
 =======
 
-![](media/image4.png){width="5.822916666666667in"
-height="6.020833333333333in"}
+![](media/Picture4.png)
 
 Questions (2 min)
 -----------------
@@ -112,8 +107,7 @@ Between Model 3 and Model 4, you make changes to Lab1 on your computer.
 Model 5
 =======
 
-![](media/image5.png){width="5.822916666666667in"
-height="6.020833333333333in"}
+![](media/Picture5.png)
 
 Questions (3 min)
 -----------------
@@ -129,8 +123,7 @@ Questions (3 min)
 Model 6
 =======
 
-![](media/image6.png){width="5.822916666666667in"
-height="6.020833333333333in"}
+![](media/Picture6.png)
 
 Questions (4 min)
 -----------------
@@ -153,7 +146,6 @@ Questions (4 min)
 7.  What operations would your instructor have to issue to get a copy of
     your Lab1 to grade it?
 
-![](media/image7.png){width="0.9635422134733158in"
-height="0.3331867891513561in"}Copyright © 2019 Karl R. Wurst. This work
+Copyright © 2019 Karl R. Wurst. This work
 is licensed under a Creative Commons Attribution-ShareAlike 4.0
 International License.
