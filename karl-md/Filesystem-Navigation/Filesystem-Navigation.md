@@ -22,7 +22,7 @@ Content Learning Objectives
 
 -   Locate a file in their file system using command line tools.
 
- Process Skill Goals
+Process Skill Goals
 -------------------
 
 *During the activity, students should make progress toward:*
@@ -40,12 +40,13 @@ comfortable with all the roles. If you have only three people, one
 should have two roles. If you have five people, two may share the same
 role. Record role assignments here.*
 
-  ----------- --
-  Manager     
-  Presenter   
-  Recorder    
-  Reflector   
-  ----------- --
+| Role        | Name |
+| ----------- | ---- |
+| Manager     |      |
+| Presenter   |      |
+| Recorder    |      |
+| Reflector   |      |
+
 
 Model 1: Lab1 Files using the Graphical User Interface (GUI)
 ============================================================
@@ -92,7 +93,7 @@ Here we are using **Git Bash** on Windows, and **Terminal** on Mac OS.
 Questions (1 min)
 -----------------
 
-1.  What does the **\$** in each of the interfaces indicate?
+1.  What does the **$** in each of the interfaces indicate?
 
 Model 3: **pwd** Command
 ========================
