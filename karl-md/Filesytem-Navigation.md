@@ -2,7 +2,7 @@
 
 Activity 3.2:
 
-Git -- Navigation
+Filesystem -- Navigation
 
 This activity is to reinforce and review Git navigation. You have been
 using basic navigation commands for navigating the file system in GitLab
