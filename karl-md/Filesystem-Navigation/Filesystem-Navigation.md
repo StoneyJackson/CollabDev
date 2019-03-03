@@ -1,8 +1,4 @@
-*Version 2019-Spring-1.1, Revised 6 February 2019*
-
-Activity 3.2:
-
-Filesystem -- Navigation
+# Filesystem -- Navigation
 
 This activity is to reinforce and review Git navigation. You have been
 using basic navigation commands for navigating the file system in GitLab
@@ -54,11 +50,11 @@ role. Record role assignments here.*
 Model 1: Lab1 Files using the Graphical User Interface (GUI)
 ============================================================
 
-![](media/image1.png){width="6.5in" height="1.9027777777777777in"}
+![](media/image1.png)
 
 Lab1 on Windows
 
-![](media/image2.png){width="6.5in" height="2.0416666666666665in"}
+![](media/image2.png)
 
 Lab1 on Mac OS
 
@@ -85,11 +81,11 @@ typing commands (rather than pointing, clicking, and dragging.)
 
 Here we are using **Git Bash** on Windows, and **Terminal** on Mac OS.
 
-![](media/image3.png){width="6.5in" height="0.9027777777777778in"}
+![](media/image3.png)
 
 **Git Bash** on Windows
 
-![](media/image4.png){width="6.5in" height="0.6388888888888888in"}
+![](media/image4.png)
 
 **Terminal** on Mac OS
 
@@ -101,11 +97,11 @@ Questions (1 min)
 Model 3: **pwd** Command
 ========================
 
-![](media/image5.png){width="6.5in" height="0.625in"}
+![](media/image5.png)
 
 **Git Bash** on Windows
 
-![](media/image6.png){width="6.5in" height="0.3194444444444444in"}
+![](media/image6.png)
 
 **Terminal** on Mac OS
 
@@ -117,11 +113,11 @@ Questions (1 min)
 Model 4: **ls** Command
 =======================
 
-![](media/image7.png){width="6.5in" height="0.625in"}
+![](media/image7.png)
 
 **Git Bash** on Windows
 
-![](media/image8.png){width="6.5in" height="0.8333333333333334in"}
+![](media/image8.png)
 
 **Terminal** on Mac OS
 
@@ -133,11 +129,11 @@ Questions (1 min)
 Model 5: **cd** Command
 =======================
 
-![](media/image9.png){width="6.5in" height="1.0694444444444444in"}
+![](media/image9.png)
 
 **Git Bash** on Windows
 
-![](media/image10.png){width="6.5in" height="0.5in"}
+![](media/image10.png)
 
 **Terminal** on Mac OS
 
@@ -152,11 +148,11 @@ Questions (1 min)
 Model 6: **cd ..** Command
 ==========================
 
-![](media/image11.png){width="6.5in" height="1.6805555555555556in"}
+![](media/image11.png)
 
 **Git Bash** on Windows
 
-![](media/image12.png){width="6.5in" height="0.8194444444444444in"}
+![](media/image12.png)
 
 **Terminal** on Mac OS
 
@@ -165,7 +161,6 @@ Questions (1 min)
 
 1.  What does **..** mean when used with the **cd** command?
 
-![](media/image13.png){width="0.9635422134733158in"
-height="0.3331867891513561in"}Copyright © 2019 Karl R. Wurst. This work
+Copyright © 2019 Karl R. Wurst. This work
 is licensed under a Creative Commons Attribution-ShareAlike 4.0
 International License.
