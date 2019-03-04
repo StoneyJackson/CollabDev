@@ -1,8 +1,4 @@
-*Version 2019-Spring-1.0, Revised 13 February 2019*
-
-Activity 4:
-
-Undoing Your Changes With Git
+# Git - Undoing Changes
 
 Sometimes you make changes to your files that you don't want to keep.
 How you undo them when working with Git varies by what state your file
