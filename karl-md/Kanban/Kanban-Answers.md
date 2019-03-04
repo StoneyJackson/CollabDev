@@ -1,8 +1,4 @@
-*Version 2019-Spring-2.0*
-
-Activity 2:
-
-Kanban
+# Kanban - Answers
 
 We will learn about Kanban boards, Kanban cards, benefits of Kanban, and
 then try to differentiate between Scrum and Kanban methodologies.
@@ -32,12 +28,12 @@ Team Roles
 
 *Record role assignments here.*
 
-  ----------- --
-  Manager     
-  Presenter   
-  Recorder    
-  Reflector   
-  ----------- --
+| Role      | Name |
+| --------- | ---- |
+| Manager   |      |
+| Presenter |      |
+| Recorder  |      |
+| Reflector |      |
 
 Model 1: Kanban
 ===============
