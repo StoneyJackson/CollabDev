@@ -40,9 +40,9 @@ Team Roles
 Model 1: Scrum Roles
 ====================
 
-Find the answers to the questions below in [[Scrum: A Breathtakingly
+Find the answers to the questions below in [Scrum: A Breathtakingly
 Brief and Agile
-Introduction]{.underline}](https://www.agilelearninglabs.com/resources/scrum-introduction/).
+Introduction](https://www.agilelearninglabs.com/resources/scrum-introduction/).
 
 Questions (10 min)
 ------------------
@@ -76,9 +76,9 @@ Questions (10 min)
 Model 2: Scrum Artifacts
 ========================
 
-Find the answers to the questions below in [[Scrum: A Breathtakingly
+Find the answers to the questions below in [Scrum: A Breathtakingly
 Brief and Agile
-Introduction]{.underline}](https://www.agilelearninglabs.com/resources/scrum-introduction/).
+Introduction](https://www.agilelearninglabs.com/resources/scrum-introduction/).
 
 Questions (12 min)
 ------------------
@@ -118,9 +118,9 @@ Questions (12 min)
 Model 3: The Sprint Cycle
 =========================
 
-Find the answers to the questions below in [[Scrum: A Breathtakingly
+Find the answers to the questions below in [Scrum: A Breathtakingly
 Brief and Agile
-Introduction]{.underline}](https://www.agilelearninglabs.com/resources/scrum-introduction/).
+Introduction](https://www.agilelearninglabs.com/resources/scrum-introduction/).
 
 Questions (10 min)
 ------------------
