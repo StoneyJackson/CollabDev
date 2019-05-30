@@ -47,12 +47,12 @@ Participants will be able to:
 
 - [Activity.md](Activity.md) - Primary activity that students work together to complete
 - [CheatSheet.md](CheatSheet.md) - Contains common command-line commands, vim commands, and other resources
-- presentation.pptx - Provides a little context
+- [presentation.pptx](presentation.pptx] - Provides a little context
 
 ## Facilitation
 
 - 10 min:
-  - Provide overview using presentation.pptx
+  - Provide overview using [presentation.pptx](presentation.pptx)
   - Form teams
   - Handout cheatsheet.md and activity.md, one copy per team
 - 30-50 min: Supervise teams as they work through activity.docx
