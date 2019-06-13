@@ -12,7 +12,7 @@
 
 ## Instructions
 
-1. Watch the following video. Copyright Clearance Center. “Copyright Basics”. 2010. [https://youtu.be/Uiq42O6rhW4](https://youtu.be/Uiq42O6rhW4) . This video explains copyrights from a business perspective.
+1. Watch Felix Crux What You Need to Know About Open Source Licenses PyCon 2016: https://youtu.be/9kGrKBOytYM . This video explains copyrights and licensing from a software development perspective.
     - You have a new idea for a program, can you copyright that idea?
         ```
 
