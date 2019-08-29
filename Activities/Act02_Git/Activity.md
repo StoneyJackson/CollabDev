@@ -60,6 +60,7 @@ D. Getting help
 ---------------
 
 1. Run the following commands.
+
         git help
         git help -ag
         git help init
@@ -88,12 +89,14 @@ F. Create a repository
 ----------------------
 
 1. From the command line, run the following commands.
+
         mkdir first_project
         cd first_project
 2.  By default any file that starts with `.` is hidden. How do you
     display a hidden file?
 3. Run this command to show the hidden files in the current directory. Are there any?
 4. Now run the following command.
+
         git init
 5. Check for hidden files again.  What was created by `git init`?
 6.  What do you think would happen if you delete `.git`?
@@ -110,6 +113,7 @@ Use a plain text editor to create `names.txt` inside the `first_project`
 folder. Put the names of your team in the file. Save and exit.
 
 1. Run `git status` before and after each of these commands.
+
         git add names.txt
         git commit –m “Add our names.”
         git log
@@ -120,6 +124,7 @@ folder. Put the names of your team in the file. Save and exit.
     - `birthdays.txt` - Put your birthdays in this file.
     - `movies.txt` - Put the last movie each of you watched in alphabetical order.
 6. Run `git status` before and after each of these commands.
+
         git add .
         git commit		Note:  Commit will open the vim editor; write a multi-line commit
     						   message, save and quit (press esc and then type :wq).
@@ -142,6 +147,7 @@ H. Stage/Cache/Index
     - Create a new file `foods.txt` that contains your favorite foods (one
         for each team member).
 2. Run the following commands:
+
         git add names.txt
         git status
 3. Below write each file name under the state that its changes are
@@ -154,6 +160,7 @@ H. Stage/Cache/Index
 5.  What command do you run to stage changes?
 6.  What command do you run to unstage changes?
 7.  Run the following commands:
+
         git diff
         git diff --cached
 8.  What does `git diff` display?
@@ -180,6 +187,7 @@ I. Undo
 -------
 
 1. Run the following commands:
+
         git log
         git status
         git reset --soft "HEAD^"
@@ -187,6 +195,7 @@ I. Undo
         git status
 2.  What does `git reset --soft "HEAD^"` do?
 3.  Run the following commands:
+
         git commit –m "Redo."
         git log
         git status
