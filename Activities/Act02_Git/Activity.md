@@ -128,7 +128,7 @@ folder. Put the names of your team in the file. Save and exit.
 8.  What does `git commit` (without -m) do?
 9.  If you want to write a more detailed commit message (which is
     good practice) what command would you use?
-10.  What does `git log do`?
+10.  What does `git log` do?
 
 
 H. Stage/Cache/Index
