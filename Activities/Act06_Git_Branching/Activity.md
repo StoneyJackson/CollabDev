@@ -45,7 +45,7 @@ Navigate to http://learngitbranching.js.org/ and complete:
 
 ```
 
-3. Give a command that changes the current commit to the last commit on the
+3. Give a command that changes the working copy to the last commit on the
    branch named "crazy".
 
 ```
